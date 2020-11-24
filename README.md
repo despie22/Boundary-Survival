@@ -14,5 +14,6 @@ Clicking back one page will send you back to the last lake, but after Rice Lake 
 When you reach DaysPerish.html you cannot go back a page and must hit retry or close the page to continue.
 Tested and works on these browsers: Google Chrome, Firefox, Safari
 Tested and does not work on these browsers: Internet explorer, Microsoft Edge
+
 Picture Source, https://elyoutfitting.b-cdn.net/wp-content/uploads/2016/04/boundary-waters-map-with-entry-points.jpg
 Canoe PNG Source, https://www.pngfly.com/png-nkf99y/download.html
