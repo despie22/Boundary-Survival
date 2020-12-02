@@ -1,0 +1,34 @@
+SOLUTION ALGORITHM: bigeastbutton.js
+INITIALIZE myLink equal to ID 'nextmove'
+onclick of ID 'nextmove' equals function()
+
+  INITIALIZE moveInput equals storeMove cookie
+  CONVERT moveInput to number
+  INITIALIZE dayInput equals storeDays cookie
+  CONVERT dayInput to number
+  IF moveInput is equal or less 1
+   moveInput equals 3
+   daysInput minus 1
+   store daysInput into storeDays cookie
+  ENDIF
+ 
+  moveInput minus 1
+  STORE moveInput into storeMove cookie
+
+  INITIALIZE move equals ture
+  WHILE move equals true run loop
+   INITIALIZE input to string
+    PROMPT for input with "You feel close, very weak...and a strong wind form the south...\nStay on Big Lake and find outfitter?\nPaddle East and find outfitter?\n\nEnter Stay or East"
+    CONVET input to lowercase
+    IF input equals stay
+     move equals false
+     open Exit07.html in the same window
+    ENDIF
+    IF input equals east
+     move equals false
+     open Exit20Perish.html in the same window
+    ENDIF
+  ENDWHILE  
+
+  return false
+END

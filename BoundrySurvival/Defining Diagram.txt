@@ -1,0 +1,251 @@
+MiddleLake.html
+INPUT:
+  East, West
+
+PROCESSING:
+  display LakeMapDay1.jpg 
+  on button click -"MOVE"
+    prompt user for trail East or trail West
+      create move and day variables and save to cookies
+      if input is "west", open BigRiceLake.html
+      if input is "east", open RiceLake.html
+ 
+OUTPUT:
+  Map
+  Days Left:
+  Moves Left:
+  Make Next Move:
+
+BigRiceLake.html
+INPUT:
+  North, South, Stay
+
+PROCESSING:
+  display BigRiceLake.jpg
+  on button click -"MOVE"
+    calculate move and day 
+    prompt user for river North or river South or Stay and camp
+     if input is "north", open LapongLake.html
+     if input is "south", open RiceLakePerish.html
+     if input is "stay", open BigRiceLake.html 
+
+
+OUTPUT:
+  Map
+  Days Left:
+  Moves Left:
+  Make Next Move
+
+LapondLake.html
+INPUT:
+  West, North
+
+PROCESSING:
+  display LapondLake.jpg
+  on button click -"MOVE"
+   calculate move and day
+   prompt user for river West or trail North
+    if input is "west", open LapondLakePerish.html
+    if input is "north", open BigLakeWest.html 
+
+
+OUTPUT:
+  Map
+  Days Left:
+  Moves Left:
+  Make Next Move:
+
+INPUT: BigLakeWest.html
+  West, Stay
+
+PROCESSING:
+  display BigLake02.jpg
+  on button click -"MOVE"
+   calculate move and day
+   prompt user for river West or Stay and explore Big Lake
+    if input is "west", open BigLakePerish.html
+    if input is "stay", open Exit07.html
+
+OUTPUT:
+  Congratulations
+  or
+  Perish
+
+RiceLake.html
+INPUT: 
+  East, Stay
+
+PROCESSING:
+  display RiceLake.jpg
+  on button click -"MOVE"
+   calculate move and day
+   prompt user for trail East or Stay and camp on Rice Lake
+    if input is "east", open SlimLake.html
+    if input is "stay", open RiceLake.html
+
+OUTPUT:
+  Map
+  Days Left:
+  Moves Left:
+  Make Next Move:
+
+Slimlake.html
+INPUT: 
+  North, South AND North, East OR West, East
+
+PROCESSING:
+  display SlimLake.jpg
+  on button click -"MOVE"
+   calculate move and day
+   prompt user for explore North or explore South
+   if input is "north"
+    prompt user for trail North or trail East
+    if input is "north", open BigLakeEast.html
+    if input is "east", open Exit77.html
+   if input is "south"
+    prompt user for West, East
+    if input is trail "west", open SlimLakePerish.html
+    if input is trail "east", open SlimLakePerish.html
+
+OUTPUT:
+  Map
+  Days Left:
+  Moves Left:
+  Make Next Move:
+  or
+  Congratulations
+  or
+  Perish
+
+BigLakeEast.html
+INPUT: 
+  Stay, East
+
+PROCESSING:
+  display BigLake01.jpg
+  on button click -"MOVE"
+    calculate move and day
+    prompt user for Stay and explore or river East
+     if input is "stay", open Exit07.html
+     if input is "east", open Exit20Perish.html
+  
+OUTPUT:
+  Map
+  Congratulations
+  or
+  Perish
+
+RiceLakePerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+LapondLakePerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+BigLakePerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+SlimLakePerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+Exit20Perish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+DaysPerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display black screen and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Black screen
+ Ending text
+ TRY AGAIN button
+
+Exit07.html
+DaysPerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display exit07.jpg and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Map
+ Ending text
+ TRY AGAIN button
+
+Exit77.html
+DaysPerish.html
+INPUT: 
+  no input
+
+PROCESSING:
+  display exit77.jpg and ending text
+  on button click -"TRY AGAIN"
+    open BountryStart.html
+  
+OUTPUT:
+ Map
+ Ending text
+ TRY AGAIN button
+

@@ -1,0 +1,71 @@
+VARIABLES: moveInput, daysInput, move, input
+
+-TEST CASE 1:
+INPUT VALUES: West, North, North, Stay
+
+YOUR EXPECTED RESULT :
+Display Exit07.html
+"Congratulations! You fought hard and have found the outfitter.
+You can rest easy tonight with a full stomach."
+"RETRY"
+
+YOUR ACTUAL RESULT:
+Displayed Exit07.html
+"Congratulations! You fought hard and have found the outfitter.
+You can rest easy tonight with a full stomach."
+"RETRY"
+
+-TEST CASE 2:
+INPUT VALUES: East, East, North, East
+
+YOUR EXPECTED RESULT :
+Display Exit77.html
+"Congratulations! You fought hard and have found the outfitter.
+You can rest easy tonight with a full stomach."
+"RETRY"
+
+YOUR ACTUAL RESULT:
+Displayed Exit77.html
+"Congratulations! You fought hard and have found the outfitter.
+You can rest easy tonight with a full stomach."
+"RETRY"
+
+-TEST CASE 3:
+INPUT VALUES: East, Stay, East, North, North
+
+YOUR EXPECTED RESULT:
+Display DaysPerish.html
+"YOU HAVE PERISHED"
+"You did not have the energy to keep going..."
+
+"Play Again?"
+"RETRY"
+
+YOUR ACTUAL RESULT :
+Display DaysPerish.html
+"YOU HAVE PERISHED"
+"You did not have the energy to keep going..."
+
+"Play Again?"
+"RETRY"
+
+-TEST CASE 4:
+INPUT VALUES: WeST, STAY, south
+
+YOUR EXPECTED RESULT:
+Display RiceLakePerish.html
+"YOU HAVE PERISHED"
+"Once at the bottom of the river
+You coulnd't find camp...
+You didn't wake up again..."
+
+"Play Again?"
+
+YOUR ACTUAL RESULT :
+Display RiceLakePerish.html
+"YOU HAVE PERISHED"
+"Once at the bottom of the river
+You coulnd't find camp...
+You didn't wake up again..."
+
+"Play Again?"

@@ -1,0 +1,162 @@
+/*Sets margin and padding between to 0*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*Sets html pages margin, padding, and background color*/
+body, html {
+	margin: 0;
+	padding: 0;
+	background: #173042;
+}
+/*BoundaryStart and Perish div tags*/
+#wrap {
+	width: 50rem;
+	margin: 0 auto;
+	/*	border: 1px solid red;*/
+}
+/*Lake pictures div tag*/
+#wrapper {
+	width: 50rem;
+	margin: 0 auto;
+	/*	border: 1px solid red;*/
+}
+/*Makes Perish html pages background black*/
+#perishpage {
+	width: 60rem;
+	margin: 0 auto;
+	background-color: #000;
+}
+/*Perish html red text*/
+#perishtext {
+	max-width: 100%;
+	color: #b84522;
+	background-color: #000;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.8rem;
+	font-family: Verdana, sans-serif;
+/*	border: 1px solid blue;*/
+}
+
+/*Lake img */
+#lakeday {
+	width: 100%;
+	margin: 0 auto;
+	/*	border: 1px solid pink;*/
+	position: relative;
+}
+/*Boundry Survival area*/
+header {
+	background-color: #4a6c2f;
+	display: block;
+	padding: 5px 0px 10px 10px;
+}
+/*Boundry Survival text*/
+h1 {
+	font-size: 4rem;
+	font-family: 'Brush Script MT';
+	text-align: center;
+	color: #b84522;
+	margin: 0px;
+	padding: 0px;
+}
+/*BoundaryStart paragraph text*/
+.maintext {
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.8rem;
+	font-weight: 500;
+	font-family: Verdana, sans-serif;
+  border: 1px dotted;
+}
+/*Days Moves Make Next Move text*/
+#wrapper p {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	font-family: Verdana, sans-serif;
+/*	border: 1px solid blue;*/
+}
+/*Outfitter numbers on BoundaryStart html*/
+.maintext p span {
+	color: #b84522;
+}
+/*Days Left Moves Left number on lake html pages*/
+#wrapper p span {
+	color: #b84522;
+}
+
+/*Move button*/
+#nextmove {
+	text-decoration: none;
+  background-color: #4a6c2f;
+  border-radius: .5em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0.25em;
+	font-size: 1.2rem;
+	font-family: Verdana, sans-serif;
+	display: inline;
+	position: relative;
+	
+}
+/*Start or Retry button*/
+#start {
+  text-decoration: none;
+  background-color: #4a6c2f;
+  border-radius: .5em;
+  text-transform: uppercase;
+  color: #b84522;
+  padding: 0.25em;
+	max-width: 100%;
+	margin: 1% 45.4%;
+	font-size: 1.2rem;
+	font-family: Verdana, sans-serif;
+	position: relative;
+	display: inline-block;
+		
+}
+
+/*White bar on bottom*/
+footer {
+	background-color: #FFF;
+	bottom: 0;
+	height: 1em;
+	left: 0;
+	padding: .5em;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+/*When screen size gets to 799px run the css below*/
+@media screen and (max-width: 799px) {
+	/* Make font smaller to fix header*/
+	h1 {
+	font-size: 3rem;
+	font-family: 'Brush Script MT';
+	text-align: center;
+	color: #b84522;
+	margin: 0px;
+	padding: 0px;
+	}
+  /* 	Make perish text fit on smaller screen*/
+	#perishpage {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000;
+	}
+	/* Makes starting page text fit the screen	*/
+	#wrap {
+		width: 100%;
+		margin: 0 auto;
+		/*	border: 1px solid red;*/
+	}
+ /* Makes all map pages fit the screen 	*/
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+		/*	border: 1px solid red;*/
+	}
+}

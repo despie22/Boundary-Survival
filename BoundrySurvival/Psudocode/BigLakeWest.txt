@@ -1,0 +1,6 @@
+SOLUTION ALGORITHM: BigLakeWest.html
+  
+  display BigLake02.jpg
+  display -Days Left: daydisplay.js (in red font)
+  display -Moves Left: movedisplay.js (in red font)
+  display <a> tag, on click run bigwestbutton.js
