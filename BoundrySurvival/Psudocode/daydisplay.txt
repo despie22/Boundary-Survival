@@ -1,0 +1,6 @@
+SOLUTION ALGORITHM: daydisplay.js
+WRITE storeDays from cookie
+
+IF sotredDays from cookie is less than or equal to zero
+ open DaysPerish.html in the same window
+ENDIF

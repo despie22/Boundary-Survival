@@ -1,0 +1,6 @@
+SOLUTION ALGORITHM: LapondLake.html
+ 
+  display LapondLake.jpg with id lakeday
+  display -Days Left: daydisplay.js (in red font)
+  display -Moves Left: movedisplay.js (in red font)
+  display <a> tag, on click run lapondbutton.js

@@ -1,0 +1,35 @@
+-Problem Statement: 
+You have overstretched your trip to the Boundary Waters and have ran out of food!
+
+Create a webpage that lets the user know its goal, with a play button under the description. 
+
+Then, write a program that counts for two days before you perish, and allows two moves a day.
+(four total moves).
+
+When user clicks Move button run a program that, prompts for the routes to take with 
+North, South, East, West or Stay depending on the routes.
+
+After it will output the next html page and the map with new icon position, days left and moves left or a perish or congratulations screen. 
+
+When on Slim Lake html, prompt the use to explore north or south first
+before asking the route.
+
+The user succeeds when they reach outfitter 7 or 77 without letting the days get to 0.
+
+Make the user perish at routes that do not lead to an exit, 
+Some random routes leading to an outfitter 
+and have them perish if they explore south Slim Lake. 
+
+After they fail or succeed ask if they want to play again. 
+
+Use different images to display where the user is.
+
+-Nouns:
+Goal, user, play button, description, two days, perish, two moves a day,
+four total moves, move button, routes, with North, South, East, West, Stay
+html page, map with new icon position, days left and moves left, perish screen,
+outfitter 7 or 77, explore, different images
+
+-Verbs: 
+Create a webpage, write, counts, click, run a program,
+prompts, output, succeeds, make the user, fail, display

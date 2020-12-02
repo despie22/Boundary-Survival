@@ -1,0 +1,6 @@
+SOLUTION ALGORITHM: MiddleLake.html
+  
+  display MiddleLake.jpg with id lakeday
+  display -Days Left: 2 (display the 2 in red font)
+  display -Moves Left: 2 (display the 2 in red font)
+  display <a> tag, on click run movebutton.js

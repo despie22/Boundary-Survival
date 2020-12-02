@@ -1,0 +1,2 @@
+SOLUTION ALGORITHM: movedisplay.js
+WRITE storeMove from cookie

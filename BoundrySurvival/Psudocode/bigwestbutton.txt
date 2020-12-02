@@ -1,0 +1,33 @@
+SOLUTION ALGORITHM: bigwestbutton.js
+INITIALIZE myLink equal to ID 'nextmove'
+onclick of ID 'nextmove' equals function()
+
+  INITIALIZE moveInput equals storeMove cookie
+  CONVERT moveInput to number
+  INITIALIZE dayInput equals storeDays cookie
+  CONVERT dayInput to number
+  IF moveInput is equal or less 1
+   moveInput equals 3
+   daysInput minus 1
+   store daysInput into storeDays cookie
+  ENDIF
+ 
+  moveInput minus 1
+  STORE moveInput into storeMove cookie
+
+  INITIALIZE move equals ture
+  WHILE move equals true run loop
+   INITIALIZE input to string
+    PROMPT for input with "You can feel the end!\nPaddle the river West?\nStay and explore Big Lake?\n\nEnter: West or Stay"
+    CONVET input to lowercase
+    IF input equals west
+     move equals false
+     open BigLakePerish.html in the same window
+    ENDIF
+    IF input equals stay
+     move equals false
+     open Exit07.html in the same window
+    ENDIF
+  
+  return false
+END

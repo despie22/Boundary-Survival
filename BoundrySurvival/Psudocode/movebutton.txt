@@ -1,0 +1,27 @@
+SOLUTION ALGORITHM: movebutton.js
+
+INITIALIZE myLink equal to ID 'nextmove'
+onclick of ID 'nextmove' equals function()
+
+  INITIALIZE moveInput equal to 1
+  STORE moveInput into storeMove cookie
+  INITIALIZE dayInput equals 2
+  STORE dayInput into storedDays cookie
+
+  INITIALIZE move equals ture
+  WHILE move equals true run loop
+   INITIALIZE input to string
+    PROMPT for input with "You are getting weak and only have a couple days left...\nTake the trail West?\nTake the trail East?\n\nEnter: West or East"
+    CONVET input to lowercase
+    IF input equals west
+     move equals false
+     open BigRiceLake.html in the same window
+    ENDIF
+    IF input equals east
+     move equals false
+     open RiceLake.html in the same window
+    ENDIF
+  ENDWHILE
+  
+  return false   
+END
