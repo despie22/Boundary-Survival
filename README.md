@@ -1,5 +1,5 @@
 # Boundary-Survival
-A simple JavaScript game, developed to show plugins and website design.
+This is my first program I build in December of 2019 which is a simple JavaScript game, developed to show plugins and website design. More items will be added and refactoring can be done.
 
 How to play:
 Open BoudaryStart.html in the FinalProject folder with updated Chrome, Firefox or Safari web browser.
